@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public abstract class AbstractDao<PK extends Serializable, T> {
 	
-	private final Class<T> persistentClass;
+	private final Class<T> persistentClass;//creating abstractDao
 	
 	@SuppressWarnings("unchecked")
 	public AbstractDao(){
